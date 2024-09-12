@@ -1,0 +1,74 @@
+body {
+    background-color: #e4e4e4;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    .container-wrap {
+        background-color: rgb(41, 35, 35);
+        background-image: url("../assets/pawel-czerwinski-ruJm3dBXCqw-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .card-coti {
+            background-color: rgba(255, 248, 248, 0.726);
+            padding: 1em;
+            width: 400px;
+            height: fit-content;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 5px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+            h1 {
+                background-color: #a8cee5;
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                text-align: center;
+                color: #fcffff;
+            }
+
+            p {
+                font-size: .8em;
+            }
+
+            form {
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                flex-direction: column;
+                height: 80px;
+
+                input {
+                    width: 80%;
+                    padding: .5em 1em;
+
+                }
+
+                button {
+                    padding: .7em 1em;
+                    width: 90%;
+                    background-color: #a6a0d2;
+                    color: #fcffff;
+                    font-weight: 600;
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    border: none;
+                }
+
+            }
+        }
+    }
+}
