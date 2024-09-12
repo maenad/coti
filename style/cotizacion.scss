@@ -11,8 +11,7 @@ body {
 
                 .info {
                     width: 45%;
-                    h5 {
-                        background-color: aqua;
+                    h4 {
                         text-wrap: wrap;
                     }
 
@@ -24,11 +23,12 @@ body {
                 
                 .img-producto {
                     width: 45%;
-                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
                     display: flex;
-                    justify-content: stretch;
+                    justify-content: center;
                     align-items: center;
                     border-radius: 2%;
+                    background-color: rgba(0, 0, 0, 0.562);
+                    padding: .3em;
 
 
                     img {
@@ -44,6 +44,28 @@ body {
                 height: 3px;background-color: aqua;
                 border: none;
             }
+
+            .cotizacion {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                text-align: center;
+                width: 50%;
+                border: 2px solid rgba(0, 0, 0, 0.123);
+                margin: 1em 0em;
+
+                .precio-cotizado {
+                    font-weight: 600;
+                    margin-left: 1em;
+                }
+            }
+
+            button {
+                background-color: #903d85;
+                color: aliceblue;
+                width: 50%;
+                margin-bottom: 1em;
+            }
         }
     }
 }
@@ -53,6 +75,10 @@ body {
         .container-wrap {
             .card-coti {
                 width: 80%;
+
+                .cotizacion {
+                    width: 90% !important;
+                }
             }
         }
     }

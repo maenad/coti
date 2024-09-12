@@ -11,8 +11,7 @@ body .container-wrap .card-coti .container-info {
 body .container-wrap .card-coti .container-info .info {
   width: 45%;
 }
-body .container-wrap .card-coti .container-info .info h5 {
-  background-color: aqua;
+body .container-wrap .card-coti .container-info .info h4 {
   text-wrap: wrap;
 }
 body .container-wrap .card-coti .container-info .info p {
@@ -21,11 +20,12 @@ body .container-wrap .card-coti .container-info .info p {
 }
 body .container-wrap .card-coti .container-info .img-producto {
   width: 45%;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   display: flex;
-  justify-content: stretch;
+  justify-content: center;
   align-items: center;
   border-radius: 2%;
+  background-color: rgba(0, 0, 0, 0.562);
+  padding: 0.3em;
 }
 body .container-wrap .card-coti .container-info .img-producto img {
   width: 100%;
@@ -38,10 +38,32 @@ body .container-wrap .card-coti hr {
   background-color: aqua;
   border: none;
 }
+body .container-wrap .card-coti .cotizacion {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  border: 2px solid rgba(0, 0, 0, 0.123);
+  margin: 1em 0em;
+}
+body .container-wrap .card-coti .cotizacion .precio-cotizado {
+  font-weight: 600;
+  margin-left: 1em;
+}
+body .container-wrap .card-coti button {
+  background-color: #903d85;
+  color: aliceblue;
+  width: 50%;
+  margin-bottom: 1em;
+}
 
 @media (max-width: 850px) {
   body .container-wrap .card-coti {
     width: 80%;
+  }
+  body .container-wrap .card-coti .cotizacion {
+    width: 90% !important;
   }
 }
 @media (max-width: 400px) {
