@@ -19,12 +19,16 @@ body .container-wrap {
   justify-content: center;
   align-items: center;
 }
+body .container-wrap button {
+  padding: 0.7em 1em;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
+  border-radius: 2px;
+}
 body .container-wrap .card-coti {
-  background-color: rgba(255, 248, 248, 0.726);
+  background-color: rgba(255, 248, 248, 0.808);
   padding: 1em;
-  width: 400px;
-  height: -moz-fit-content;
-  height: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,34 +37,24 @@ body .container-wrap .card-coti {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 body .container-wrap .card-coti h1 {
-  background-color: #a8cee5;
   margin: 0;
   padding: 0;
   width: 100%;
   text-align: center;
-  color: #fcffff;
 }
 body .container-wrap .card-coti p {
   font-size: 0.8em;
 }
 body .container-wrap .card-coti form {
-  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  height: 80px;
 }
 body .container-wrap .card-coti form input {
-  width: 80%;
   padding: 0.5em 1em;
 }
 body .container-wrap .card-coti form button {
-  padding: 0.7em 1em;
-  width: 90%;
   background-color: #a6a0d2;
   color: #fcffff;
-  font-weight: 600;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  border: none;
 }/*# sourceMappingURL=feel.css.map */
