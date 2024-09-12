@@ -19,11 +19,17 @@ body {
         justify-content: center;
         align-items: center;
 
+        button {
+            padding: .7em 1em;
+            font-weight: 600;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border: none;
+            border-radius: 2px;
+        }
+
         .card-coti {
-            background-color: rgba(255, 248, 248, 0.726);
+            background-color: rgba(255, 248, 248, 0.808);
             padding: 1em;
-            width: 400px;
-            height: fit-content;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -32,12 +38,10 @@ body {
             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
             h1 {
-                background-color: #a8cee5;
                 margin: 0;
                 padding: 0;
                 width: 100%;
                 text-align: center;
-                color: #fcffff;
             }
 
             p {
@@ -45,27 +49,19 @@ body {
             }
 
             form {
-                width: 100%;
                 display: flex;
                 justify-content: space-around;
                 align-items: center;
                 flex-direction: column;
-                height: 80px;
 
                 input {
-                    width: 80%;
                     padding: .5em 1em;
 
                 }
 
                 button {
-                    padding: .7em 1em;
-                    width: 90%;
                     background-color: #a6a0d2;
                     color: #fcffff;
-                    font-weight: 600;
-                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-                    border: none;
                 }
 
             }
